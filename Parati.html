@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Galaxia de Amor</title>
+<style>
+  body {
+    margin: 0;
+    overflow: hidden;
+    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+    font-family: 'Arial', sans-serif;
+  }
+  .planet {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    height: 200px;
+    margin: -100px;
+    background: #ff69b4;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 0 0 30px #ff69b4;
+  }
+  .orbit {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin: -200px;
+    border-radius: 50%;
+    animation: spin 20s linear infinite;
+  }
+  .heart {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: #ff1493;
+    clip-path: polygon(50% 0%, 61% 15%, 75% 15%, 85% 25%, 85% 40%, 50% 80%, 15% 40%, 15% 25%, 25% 15%, 39% 15%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+  }
+  @keyframes spin {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+  }
+</style>
+</head>
+<body>
+
+<div class="planet">
+  Feliz aniversario<br>16 meses,<br>mi amorcito
+</div>
+
+<div class="orbit" style="animation-duration: 20s;">
+  <div class="heart" style="top:0; left:50%;">mi pajarita 🐦</div>
+  <div class="heart" style="top:14%; left:85%;">mi princesita 👸</div>
+  <div class="heart" style="top:50%; left:100%;">mi conejita 🐰</div>
+  <div class="heart" style="top:85%; left:85%;">mi amorcito 💖</div>
+  <div class="heart" style="top:100%; left:50%;">mi bonita 🌸</div>
+  <div class="heart" style="top:85%; left:14%;">mi todo 💕</div>
+  <div class="heart" style="top:50%; left:0;">te amo 😘</div>
+  <div class="heart" style="top:14%; left:14%;">mi cariñito 🥰</div>
+  <div class="heart" style="top:10%; left:50%;">mi vida 💓</div>
+  <div class="heart" style="top:30%; left:80%;">mi cielo ☁️</div>
+  <div class="heart" style="top:70%; left:80%;">mi tesoro 💎</div>
+  <div class="heart" style="top:90%; left:50%;">mi muñequita 🪆</div>
+  <div class="heart" style="top:70%; left:20%;">mi sol ☀️</div>
+  <div class="heart" style="top:30%; left:20%;">mi corazón ❤️</div>
+  <div class="heart" style="top:50%; left:70%;">mi alegría 😍</div>
+  <div class="heart" style="top:50%; left:30%;">mi amor infinito 💞</div>
+</div>
+
+</body>
+</html>
